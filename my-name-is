@@ -13,6 +13,60 @@ ADJECTIVES = %w[
   luminous
   playful
   serene
+  jolly
+  merry
+  giddy
+  charming
+  delightful
+  blissful
+  radiant
+  cheerful
+  sunny
+  dazzling
+  fantastic
+  fabulous
+  splendid
+  wondrous
+  amazing
+  awesome
+  superb
+  magnificent
+  brilliant
+  joyful
+  ecstatic
+  euphoric
+  hilarious
+  comical
+  silly
+  goofy
+  zany
+  quirky
+  snazzy
+  peppy
+  perky
+  sprightly
+  lively
+  bubbly
+  gregarious
+  optimistic
+  upbeat
+  dreamy
+  fancy
+  fluffy
+  giggly
+  happy
+  kind
+  lucky
+  mirthful
+  nimble
+  nutty
+  plucky
+  quizzical
+  rosy
+  snuggly
+  toasty
+  witty
+  zippy
 ].freeze
 
 NOUNS = %w[
@@ -32,6 +86,57 @@ NOUNS = %w[
   maple
   pine
   willow
+  dolphin
+  penguin
+  koala
+  lemur
+  meerkat
+  platypus
+  hedgehog
+  chinchilla
+  puffin
+  narwhal
+  octopus
+  starfish
+  seahorse
+  clownfish
+  jellyfish
+  walrus
+  beaver
+  chipmunk
+  ferret
+  hamster
+  iguana
+  kangaroo
+  llama
+  moose
+  newt
+  opossum
+  panda
+  quokka
+  raccoon
+  sloth
+  turtle
+  unicorn
+  vulture
+  wombat
+  yak
+  zebra
+  birch
+  cedar
+  elm
+  fir
+  hickory
+  juniper
+  larch
+  mahogany
+  nutmeg
+  palm
+  quince
+  redwood
+  spruce
+  teak
+  yew
 ].freeze
 
 options = {}
