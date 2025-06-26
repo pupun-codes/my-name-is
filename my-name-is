@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'optparse'
+
 ADJECTIVES = %w[
   sparkling
   gleaming
@@ -32,4 +34,21 @@ NOUNS = %w[
   willow
 ].freeze
 
-puts "#{ADJECTIVES.sample}-#{NOUNS.sample}"
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: my-name-is [options]"
+
+  opts.on("--plain", "Output name in plain text without ASCII art") do
+    options[:plain] = true
+  end
+end.parse!
+
+name = "#{ADJECTIVES.sample}-#{NOUNS.sample}"
+
+if options[:plain]
+  puts name
+else
+  puts "+--------------------+"
+  puts "| #{name.ljust(18)} |"
+  puts "+--------------------+"
+end
