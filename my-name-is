@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+
+ADJECTIVES = %w[
+  sparkling
+  gleaming
+  whimsical
+  effervescent
+  bouncy
+  glowing
+  vibrant
+  luminous
+  playful
+  serene
+].freeze
+
+NOUNS = %w[
+  badger
+  otter
+  fox
+  squirrel
+  owl
+  bear
+  deer
+  rabbit
+  salmon
+  trout
+  tuna
+  shark
+  oak
+  maple
+  pine
+  willow
+].freeze
+
+puts "#{ADJECTIVES.sample}-#{NOUNS.sample}"
